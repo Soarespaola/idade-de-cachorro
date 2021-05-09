@@ -15,6 +15,7 @@
 		91683A742640E7C100B0735D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91683A722640E7C100B0735D /* LaunchScreen.storyboard */; };
 		91683A7F2640E7C100B0735D /* Conversor_idade_dogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91683A7E2640E7C100B0735D /* Conversor_idade_dogTests.swift */; };
 		91683A8A2640E7C100B0735D /* Conversor_idade_dogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91683A892640E7C100B0735D /* Conversor_idade_dogUITests.swift */; };
+		91683AA62640EC4400B0735D /* dogs.png in Resources */ = {isa = PBXBuildFile; fileRef = 91683AA52640EC4400B0735D /* dogs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		91683A852640E7C100B0735D /* Conversor_idade_dogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Conversor_idade_dogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91683A892640E7C100B0735D /* Conversor_idade_dogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversor_idade_dogUITests.swift; sourceTree = "<group>"; };
 		91683A8B2640E7C100B0735D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91683AA52640EC4400B0735D /* dogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		91683A662640E7C000B0735D /* Conversor_idade_dog */ = {
 			isa = PBXGroup;
 			children = (
+				91683AA52640EC4400B0735D /* dogs.png */,
 				91683A672640E7C000B0735D /* AppDelegate.swift */,
 				91683A692640E7C000B0735D /* SceneDelegate.swift */,
 				91683A6B2640E7C000B0735D /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91683AA62640EC4400B0735D /* dogs.png in Resources */,
 				91683A742640E7C100B0735D /* LaunchScreen.storyboard in Resources */,
 				91683A712640E7C100B0735D /* Assets.xcassets in Resources */,
 				91683A6F2640E7C000B0735D /* Main.storyboard in Resources */,
@@ -445,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Paola-Soares.Conversor-idade-dog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Paola-Soares.Conversor-idade-dog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
